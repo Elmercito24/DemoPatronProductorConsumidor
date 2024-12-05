@@ -17,7 +17,7 @@ namespace DemoPatronProductorConsumidor
         public void PrepararPlato(ClsPlato plato)
         {
             _zonaDePlatos.Agregar(plato);
-            Thread.Sleep(2000); // Simular tiempo de preparación
+            Thread.Sleep(2000); //Thread sleep indica que se va ejecutar dentro de dos segundos
         }
     }
 }
