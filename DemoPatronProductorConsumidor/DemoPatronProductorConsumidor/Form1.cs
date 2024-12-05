@@ -66,6 +66,7 @@ namespace DemoPatronProductorConsumidor
                 {
                   dgvUsuarios.Rows.Add
                   (
+                      //Agregamos los atributos que deseamos agregar
                    usuario.Id,
                    usuario.Nombre,
                    usuario.CorreoElectronico,
